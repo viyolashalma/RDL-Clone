@@ -1,0 +1,52 @@
+/* Resetting default margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333; /* Background color for the navigation bar */
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points from the list */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+nav ul li {
+    float: left; /* Float list items to the left */
+}
+
+nav ul li a {
+    display: block; /* Make anchor elements block-level for better styling */
+    padding: 20px; /* Add padding around links */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Background color on hover */
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 0;
+}
+
+.heading {
+    text-align: center; /* Center the text */
+    margin: 20px 0; /* Add some spacing around the heading */
+}
+
+.heading h2 {
+    border-bottom: 1px solid #000; /* Add a solid border line at the bottom */
+    line-height: 0.1em; /* Adjust the line height to make the border appear thicker */
+    margin: 0 auto 20px; /* Add margin at the bottom to separate from other content */
+}
+
+.heading h2 span {
+    background: #fff; /* Background color to cover the border line */
+    padding: 0 10px; /* Add padding to create space between the text and border */
+}
